@@ -1,0 +1,27 @@
+.ColorForm{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    width: 100%;
+    max-width: 400px;
+}
+
+.ColorForm > label{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.ColorForm > input{
+    height: 1.9rem;
+    margin-top: 0.5rem;
+    outline: none;
+    padding: 0rem 0.4rem;
+}
+
+.ColorForm > button{
+    margin: 1rem auto;
+    width: 10rem;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
