@@ -17,7 +17,6 @@ function ColorForm(props){
 
     return (
         <form className={styles.ColorForm} onSubmit={submitHandler}>
-            <label htmlFor = "color">Color : </label>
             <input 
                 type="text" 
                 id="color" 

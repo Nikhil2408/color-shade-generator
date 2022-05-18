@@ -1,0 +1,20 @@
+.colorShade{
+    cursor: pointer;
+    padding: 0.5rem;
+    width: 220px;
+    height: 120px;
+}
+
+.colorShade > p{
+    pointer-events: none;
+}
+
+.copiedMsg{
+    text-align: center;
+}
+
+@media(max-width: 700px){
+    .colorShade{
+        width: 90%;   
+    }
+}

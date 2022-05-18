@@ -24,4 +24,11 @@
     padding: 0.5rem 1rem;
     font-weight: bold;
     cursor: pointer;
+    background-color: brown;
+    color: white;
+    border: none;
+}
+
+.ColorForm > button:hover{
+    background-color: rgb(104, 26, 26);
 }
